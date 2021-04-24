@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Embedded Style Sheet</title>
+<style>
+  h1  {
+    color: #009;
+    font-size: 1em;
+    margin-bottom: .3em;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  table {
+    margin: .3em;
+    width: 290px;
+  }
+  
+  th {
+    padding: .2em;
+  }
+  
+  td {
+    background-color: #ffc;
+    border: 1px solid #900;
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+  
+  #trHeader {
+    color: #900;
+    text-decoration: underline;
+  }
+  
+  .centerCell {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div>
+<h1>Top Music Videos for This Month</h1>
+<table>
+  <tr id="trHeader">
+    <th>Group</th>
+    <th>Views</th>
+    <th>Music Video</th>
+  </tr>
+  <tr>
+    <td>Jessi</td>
+    <td class="centerCell">29M</td>
+    <td>What Type Of X</td>
+  </tr>
+  <tr>
+    <td>Astro</td>
+    <td class="centerCell">21M</td>
+    <td>ONE</td>
+  </tr>
+  <tr>
+    <td>SHINee</td>
+    <td class="centerCell">16.6M</td>
+    <td>Atlantis</td>
+  </tr>
+  <tr>
+    <td>Hoshi</td>
+    <td class="centerCell">7.8M</td>
+    <td>Spider</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
